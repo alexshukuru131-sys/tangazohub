@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Matangazo Online</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+    }
+
+    header p {
+      margin-top: 8px;
+      color: #ccc;
+    }
+
+    nav {
+      background: #222;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 14px;
+    }
+
+    .hero {
+      padding: 35px 20px;
+      text-align: center;
+      background: white;
+    }
+
+    .hero h2 {
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #ff9800;
+      color: white;
+      padding: 12px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      width: 92%;
+      max-width: 900px;
+      margin: 25px auto;
+    }
+
+    .ad {
+      background: white;
+      border: 2px dashed #bbb;
+      padding: 35px 10px;
+      text-align: center;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+
+    .ad h3 {
+      margin-bottom: 8px;
+    }
+
+    .articles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #666;
+      line-height: 1.5;
+    }
+
+    footer {
+      margin-top: 30px;
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Matangazo Online</h1>
+    <p>Habari, burudani na taarifa mbalimbali</p>
+  </header>
+
+  <nav>
+    <a href="#">Nyumbani</a>
+    <a href="#">Habari</a>
+    <a href="#">Burudani</a>
+    <a href="#">Kuhusu</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Karibu kwenye website yetu</h2>
+    <p>Pata taarifa mpya na matangazo mbalimbali hapa.</p>
+    <a href="#" class="btn">Soma Zaidi</a>
+  </section>
+
+  <main class="container">
+
+    <div class="ad">
+      <h3>Nafasi ya Tangazo</h3>
+      <p>Tangazo litaonekana hapa</p>
+    </div>
+
+    <section class="articles">
+
+      <div class="card">
+        <h3>Habari Mpya</h3>
+        <p>
+          Hapa tutaweka habari na taarifa mpya
+          zitakazowavutia wageni wa website.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Burudani</h3>
+        <p>
+          Habari za burudani, michezo na mambo
+          mengine ya kuvutia.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Matangazo</h3>
+        <p>
+          Sehemu hii itatumika kuweka matangazo
+          kutoka kwa wafanyabiashara.
+        </p>
+      </div>
+
+    </section>
+
+    <div class="ad" style="margin-top:20px;">
+      <h3>Nafasi ya Tangazo</h3>
+      <p>Hapa ndipo tutakapoweka mfumo wa matangazo.</p>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Matangazo Online</p>
+    <p>Haki zote zimehifadhiwa.</p>
+  </footer>
+
+</body>
+  </html>
